@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Projeto5</title>
+    <link rel="shortcut icon" type="image-x/png" href="meu-logo.ico">
+    <style>@import url('https://fonts.googleapis.com/css?family=Hepta+Slab&display=swap');</style>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/res880px.css">
+    <link rel="stylesheet" href="css/res1090px.css">
+    <link rel="stylesheet" href="css/res400px.css">
+</head>
+<body>
+    
+    <header style="border-bottom: 3px solid red;">
+        <div class="container">
+            <div class="logo">
+               <img src="imagens/logo1.jpg">
+            </div><!-- logo -->
+            <nav class="desktop">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="sobre.html">Sobre nós</a></li>
+                    <li><a style="color: red"href="vendas.html">Vendas</a></li>
+                    <li><a goto='contato' href="contato.html">Contato</a></li>
+                </ul>
+            </nav><!-- desktop -->
+
+            <nav class="mobile">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="sobre.html">Sobre nós</a></li>
+                        <li><a style="color: red"href="vendas.html">Vendas</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </nav><!-- mobile -->
+                <div class="clear"></div>
+        </div><!-- container -->
+    </header>
+
+    <section class="venda-single">
+        <div class="linha1"></div>
+        <h2>BMW M5</h2>
+        <div class="linha2"></div>
+        
+        <div class="container">
+            <div class="info-veiculo">
+                <div class="info-bread"><a href="index.html">HOME</a><span>></span>
+                <a href="vendas.html">VENDA</a><span>></span>
+                <a href="veiculo-venda.html">VEÍCULO A VENDA</a></div>
+                <div class="foto-destaque"></div>  
+                <div class="nav-galeria-parent">
+                <div class="arrow-left-nav"></div> 
+                <div class="arrow-right-nav"></div> 
+                <div class="nav-galeria">
+                    <div class="nav-galeria-wraper">
+                        <div class="mini-img"><div style="background-image: url(imagens/carro1.jpg)"class="mini-foto"></div></div>
+                        <div class="mini-img"><div style="background-image: url(imagens/carro3.jpg)"class="mini-foto"></div></div>
+                        <div class="mini-img"><div style="background-image: url(imagens/carro2.jpg)"class="mini-foto"></div></div>
+                        <div class="mini-img"><div style="background-image: url(imagens/carro2.jpg)"class="mini-foto"></div></div>
+                        <div class="mini-img"><div style="background-image: url(imagens/carro1.jpg)"class="mini-foto"></div></div>
+                        <div class="mini-img"><div style="background-image: url(imagens/carro3.jpg)"class="mini-foto"></div></div>
+                    </div><!-- nav-galeria-wraper -->
+                </div><!-- nav-galeira -->
+                </div><!-- nav-galeria-parent -->
+            </div><!-- info-veiculo -->
+
+            <div class="descricao-veiculo">
+                <h2>R$ 25.000,00</h2>
+                <p>É um facto estabelecido de que um leitor é distraído pelo conteúdo legível de uma página quando analisa a sua mancha gráfica. Logo, o uso de Lorem Ipsum leva a uma distribuição mais ou menos normal de letras, ao contrário do uso de "Conteúdo aqui, conteúdo aqui", tornando-o texto legível</p>
+                <a class="btn1" href="">Entre em contato</a>
+            </div><!-- descricao-veiculo -->
+            <div class="clear"></div>
+        </div><!-- container -->
+    </section><!-- venda-single -->
+
+
+
+
+    <section class="contato">
+        <div class="linha1"></div>
+        <h2>Contato</h2>
+        <div class="linha2"></div>
+
+        <form>
+            <div class="form-wraper w100">
+                <input type="text" name="nome", placeholder="Nome*" required>
+            </div><!-- input-wraper w100 -->
+
+            <div class="form-wraper w50">
+                <input type="text" name="email" placeholder="E-mail*" required>
+            </div><!-- input-wraper w100 -->
+
+            <div class="form-wraper w50">
+                <input type="text" name="telefone" placeholder="Telefone*" required>
+            </div><!-- input-wraper w100 -->
+
+            <div class="form-wraper w100">
+               <textarea placeholder="Mensagem" required></textarea>
+            </div><!-- input-wraper w100 -->
+
+            <div class="form-wraper w100">
+                <input class="btn1" type="submit" value="ENVIAR" name="acao">
+            </div>
+            <div class="clear"></div>
+        </form>
+    </section><!-- contato -->
+
+    <section class="veiculos-destaque">
+        <div class="linha1"></div>
+        <h2>Veículos em destaque</h2>
+        <div class="linha2"></div>
+
+        <div class="container">
+            <div class="vitrine-destaque">
+                <div style="background-image: url(imagens/carro1.jpg)" class="carro-imagem"></div><!-- carro-imagem -->
+                <div class="info-carro">
+                    <h2>Bugatti</h2>
+                    <p>O carro que você sempre sonhou. BiTurbo</p>
+                    <a class="btn1" href="">Mais detalhes</a>
+                </div><!-- info-carro -->
+            </div><!-- vitrine-destaque -->
+
+            <div class="vitrine-destaque">
+                <div style="background-image: url(imagens/carro2.jpg)" class="carro-imagem"></div><!-- carro-imagem -->
+                <div class="info-carro">
+                    <h2>BMW M6</h2>
+                    <p>Conforto e tecnologia tudo num só carro</p>
+                    <a class="btn1" href="">Mais detalhes</a>
+                </div><!-- info-carro -->
+            </div><!-- vitrine-destaque -->
+
+            <div class="vitrine-destaque">
+                <div style="background-image: url(imagens/carro3.jpg)" class="carro-imagem"></div><!-- carro-imagem -->
+                <div class="info-carro">
+                    <h2>Bugatti</h2>
+                    <p>O mais novo lanchamento da marca.</p>
+                    <a class="btn1" href="">Mais detalhes</a>
+                </div><!-- info-carro -->
+            </div><!-- vitrine-destaque -->
+        </div><!-- container -->
+        <div class="clear"></div>
+    </section><!-- veiculos-destaque -->
+
+    <footer>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="sobre.html">Sobre nós</a></li>
+                    <li><a style="color: red"href="vendas.html">Vendas</a></li>
+                    <li><a goto='contato' href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+            <p>Todos os direitos reservados</p>
+            <div class="clear"></div>
+        </div><!-- container -->
+    </footer>
+
+    <script src="js/jQuery.js"></script>
+    <script src="js/menu-responsivo.js"></script>
+    <script src="js/funtions.js"></script>
+</body>
+</html>

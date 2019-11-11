@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Arial', 'Helvetica Neue', 
+}
+html,body{
+    width: 100%;
+}
+.clear{
+    clear: both;
+}
+
+
+@media screen and (max-width: 650px){
+    .text-banner1{
+        padding: 7px 0;
+        max-width: 350px;
+        position: relative;
+        top: 190px;
+        left: 64px;
+        line-height: 50%;
+        text-transform: uppercase;
+        transform: skew(-20deg);
+    }
+    .text-banner2{
+        padding: 7px 0;
+        max-width: 350px;
+        position: relative;
+        top: 190px;
+        left: 52px;
+        line-height: 50%;
+        text-transform: uppercase;
+        transform: skew(-20deg);/**fazer o vermelho inclinar*/
+    }
+    .text-banner3{
+        padding: 7px 0;
+        max-width: 350px;
+        position: relative;
+        top: 190px;
+        left: 40px;
+        line-height: 50%;
+        text-transform: uppercase;
+        transform: skew(-20deg);
+    }
+    .text-banner-single{
+        width: 120px;
+        height: 10px;
+        font-size: 11px;
+        padding: 10px 10px;
+        color: white;
+        line-height: 50%;
+        background: rgba(230, 11, 22, 0.5);
+    }
+}

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Projeto5</title>
+    <link rel="shortcut icon" type="image-x/png" href="meu-logo.ico">
+    <style>@import url('https://fonts.googleapis.com/css?family=Hepta+Slab&display=swap');</style>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/res880px.css">
+    <link rel="stylesheet" href="css/res1090px.css">
+    <link rel="stylesheet" href="css/res400px.css">
+</head>
+<body>
+    
+    <header>
+        <div class="container">
+            <div class="logo">
+               <img src="imagens/logo1.jpg">
+            </div><!-- logo -->
+            <nav class="desktop">
+                <ul>
+                    <li><a style="color: red" href="index.html">Home</a></li>
+                    <li><a href="sobre.html">Sobre nós</a></li>
+                    <li><a href="vendas.html">Vendas</a></li>
+                    <li><a goto='contato' href="contato.html">Contato</a></li>
+                </ul>
+            </nav><!-- desktop -->
+
+            <nav class="mobile">
+                    <ul>
+                        <li><a style="color: red" href="index.html">Home</a></li>
+                        <li><a href="sobre.html">Sobre nós</a></li>
+                        <li><a href="vendas.html">Vendas</a></li>
+                        <li><a goto='contato' href="contato.html">Contato</a></li>
+                    </ul>
+                </nav><!-- mobile -->
+                <div class="clear"></div>
+        </div><!-- container -->
+    </header>
+
+    <section class="banner">
+        <div class="container">
+            <div class="text-banner1"> 
+                <div class="text-banner-single">Consultoria</div><!-- text-banner-single -->
+            </div><!-- text-banner -->
+
+            <div class="text-banner2">  
+                <div class="text-banner-single">Compra </div><!-- text-banner-single -->
+            </div><!-- text-banner -->
+
+            <div class="text-banner3">  
+                <div class="text-banner-single">Venda</div><!-- text-banner-single -->
+            </div><!-- text-banner -->               
+        </div><!-- container -->
+    </section><!-- banner -->
+
+    <section class="veiculos-destaque">
+        <div class="linha1"></div>
+        <h2>Veículos em destaque</h2>
+        <div class="linha2"></div>
+
+        <div class="container">
+            <div class="vitrine-destaque">
+                <div style="background-image: url(imagens/carro1.jpg)" class="carro-imagem"></div><!-- carro-imagem -->
+                <div class="info-carro">
+                    <h2>Bugatti</h2>
+                    <p>O carro que você sempre sonhou. BiTurbo</p>
+                    <a class="btn1" href="veiculo-venda.html">Mais detalhes</a>
+                </div><!-- info-carro -->
+            </div><!-- vitrine-destaque -->
+
+            <div class="vitrine-destaque">
+                <div style="background-image: url(imagens/carro2.jpg)" class="carro-imagem"></div><!-- carro-imagem -->
+                <div class="info-carro">
+                    <h2>BMW M6</h2>
+                    <p>Conforto e tecnologia tudo num só carro</p>
+                    <a class="btn1" href="veiculo-venda.html">Mais detalhes</a>
+                </div><!-- info-carro -->
+            </div><!-- vitrine-destaque -->
+
+            <div class="vitrine-destaque">
+                <div style="background-image: url(imagens/carro3.jpg)" class="carro-imagem"></div><!-- carro-imagem -->
+                <div class="info-carro">
+                    <h2>Bugatti</h2>
+                    <p>O mais novo lanchamento da marca.</p>
+                    <a class="btn1" href="veiculo-venda.html">Mais detalhes</a>
+                </div><!-- info-carro -->
+            </div><!-- vitrine-destaque -->
+        </div><!-- container -->
+        <div class="clear"></div>
+    </section><!-- veiculos-destaque -->
+
+    <section class="servicos">
+        <div class="half1">
+            <div class="half1-wraper">
+                <h2>Serviços</h2>
+                <ul>
+                    <li>Compra</li>
+                    <li>Venda</li>
+                    <li>Despachante</li>
+                    <li>Consultoria de veículos</li>
+                    <li>Indicação de mecânicos</li>
+                    <li>Troca</li>
+                </ul>
+                <a class="btn1" href="">Saiba mais</a>
+            </div><!-- half1-wraper -->
+        </div><!-- half1 -->
+
+        <div class="half2">
+            <h2>Depoimentos</h2>
+            <div class="depoimento-single">
+                <p>Ótimo atendimento, super recomendo, pessoal educado,atenciso.<br> Vale a pena vizitar.</p>
+                <p>Outro depoimento valido.<br> Vale a pena vizitar.</p>
+                <div class="navegation">
+                    <div class="arrows">
+                        <img prev src="imagens/arrow-left.png">
+                        <img next src="imagens/arrow-right.png">
+                    </div><!-- arrows -->
+                    <div class="nome-depoimento">João da Silva</div><!-- nome-depoimento -->
+                </div><!-- navegation -->
+            </div><!-- depoimento-single -->
+        </div><!-- half2 -->
+    </section><!-- servicos -->
+
+    <section id='contato'class="contato">
+        <div class="linha1"></div>
+        <h2>Contato</h2>
+        <div class="linha2"></div>
+
+        <form>
+            <div class="form-wraper w100">
+                <input type="text" name="nome", placeholder="Nome*" required>
+            </div><!-- input-wraper w100 -->
+
+            <div class="form-wraper w50">
+                <input type="text" name="email" placeholder="E-mail*" required>
+            </div><!-- input-wraper w100 -->
+
+            <div class="form-wraper w50">
+                <input type="text" name="telefone" placeholder="Telefone*" required>
+            </div><!-- input-wraper w100 -->
+
+            <div class="form-wraper w100">
+               <textarea placeholder="Mensagem" required></textarea>
+            </div><!-- input-wraper w100 -->
+
+            <div class="form-wraper w100">
+                <input class="btn1" type="submit" value="ENVIAR" name="acao">
+            </div>
+            <div class="clear"></div>
+        </form>
+    </section><!-- contato -->
+
+    <footer>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a style="color: red" href="index.html">Home</a></li>
+                    <li><a href="sobre.html">Sobre nós</a></li>
+                    <li><a href="vendas.html">Vendas</a></li>
+                    <li><a goto='contato' href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+            <p>Todos os direitos reservados</p>
+            <div class="clear"></div>
+        </div><!-- container -->
+    </footer>
+
+    <script src="js/jQuery.js"></script>
+    <script src="js/menu-responsivo.js"></script>
+    <script src="js/funtions.js"></script>
+</body>
+</html>
